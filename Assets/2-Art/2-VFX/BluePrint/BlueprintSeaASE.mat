@@ -78,10 +78,10 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _TessEdgeLength: 16
-    - _TessMax: 300
+    - _TessMax: 100
     - _TessMaxDisp: 25
-    - _TessMin: 150
-    - _TessValue: 10
+    - _TessMin: 50
+    - _TessValue: 5
     - _Tmer: 0.01
     - _ZTest: 4
     - _ZWrite: 0
