@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Blueprint_BlueprintASE Barco
+  m_Shader: {fileID: 4800000, guid: 012090fe74ff74148a556ef40297dbab, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ENVIRONMENTREFLECTIONS_OFF
+  - _RECEIVE_SHADOWS_OFF
+  m_InvalidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _EMISSION
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2998
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _ColorAlbedo
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Blueprint:
+        m_Texture: {fileID: 2800000, guid: 22dd44e000a893e4091320af2a0e406c, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_33f776e95a824dae9d2c460883381811_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9b1c897b851099846b2cbd75795c6480, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: c4b901ecad539cd4f944870ef0254aa6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_1:
+        m_Texture: {fileID: 2800000, guid: cc5cedabd8c58d44bb02d97cdff63a6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_25f50167db11429e8d1b5865c12fddeb_Texture_1_Texture2D:
+        m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AO: 1
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 0
+    - _Cull: 2
+    - _DstBlend: 10
+    - _EnvironmentReflections: 0
+    - _Float: 1.06
+    - _Float1: 0.5
+    - _Float_1: 1.14
+    - _Float_2: 1.85
+    - _Float_3: 1
+    - _Float_4: 35.12
+    - _Glow: 0
+    - _Intersection: -0.6
+    - _LinesContrast: 0
+    - _Metal: 0.95
+    - _Metall: 0.46
+    - _QueueControl: 0
+    - _QueueOffset: -2
+    - _RIM: 7.4
+    - _RIMContrast: 1
+    - _ReceiveShadows: 0
+    - _Smooth: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 1
+    - _Tiling: 2
+    - _WorkflowMode: 1
+    - _XRMotionVectorsPass: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 1
+    - _lines: 0.14
+    m_Colors:
+    - _Color: {r: 0, g: 0.3043049, b: 0.630346, a: 1}
+    - _Color0: {r: 0, g: 2.2808971, b: 3.4415908, a: 0}
+    - _Color1: {r: 0.992103, g: 0.9103774, b: 1, a: 0}
+    - _ColorAlbedo: {r: 0, g: 0.55238104, b: 1, a: 0.49411765}
+    - _ColorEmissive: {r: 0.0032039948, g: 0.40750316, b: 0.6792453, a: 0.50980395}
+    - _Color_1: {r: 0.09198114, g: 0.31610402, b: 0.5, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RIM: {r: 0.5, g: 3, b: 1, a: 0}
+    - _Vector0: {r: 0, g: 0.36, b: 0, a: 0}
+    - _Vector2: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &3891058070942005765
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
