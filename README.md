@@ -17,12 +17,16 @@ _**Efecto de Blueprint para VR**_
 
 ## Contenido
 
-* **Shader Graph:** `Agua_SHADER`, `BlueprintSea`, `Blueprint_BorderGlow`, `ChaperoneGrid`, `Grid`, `Hologram_RIM`, `Hologram_Tomb_Simple`, `Outline`, `Outliner`, `RIM` y 4 más
-* **Sub Graphs:** `BumpOlas`, `Frecuencia`, `GerstnelWave`, `GerstnerDisplacement`, `MascaraNormales`, `MascaraVoronoiEspuma`, `NewNormal`, `Olas_Gerstnel`, `Ondas Agua`, `SimAgua` y 2 más
-* **Shaders HLSL:** `Add_CenterGlow`, `Blend_CenterGlow`, `BlueprintSeaASE`, `Blueprint_Avatar_Excurio_Blueprint`, `Blueprint_BlueprintASE`, `Blueprint_BlueprintSeaASE_Local`, `Blueprint_HologramASE`, `Chaperone_SCR`, `Chaperone_VR`, `Insects_ParticlesUnlit` y 3 más
-* **Scripts:** `Mascara`, `OndaAgua`, `WaterSimulation`
-* **Prefabs:** `Agua`, `Big_Water Explosion`, `BlueprintSea (1)`, `Mascara Agua`, `Particles Splas Water`, `Particles Splas Water_2`, `Plano Agua 2KM 2`, `WaterExplosionArea`, `esfinge meh V2`, `esfinge meh V3` y 1 más
-* **Escenas:** `Assets/3-Scenes/Main.unity`
+Efectos en `Assets/2-Art/2-VFX/`:
+
+| Efecto | VFX | Shader Graph | Shaders | Scripts | Prefabs | Materiales |
+|---|---|---|---|---|---|---|
+| **BluePrint** | — | 10 | 5 | — | 4 | 20 |
+| **Chaperone** | — | 2 | 2 | — | — | 2 |
+| **Insects** | — | — | 1 | — | — | — |
+| **Water** | — | 13 | 5 | 3 | 7 | 16 |
+
+**Escenas de demostración:** `Assets/3-Scenes/Main.unity`
 
 ## Uso
 
